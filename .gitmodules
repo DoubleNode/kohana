@@ -28,9 +28,6 @@
 [submodule "modules/minion"]
 	path = modules/minion
 	url = https://github.com/kohana/minion.git
-[submodule "modules/madapi"]
-	path = modules/madapi
-	url = git@bitbucket.org:doublenode/madapi.git
 [submodule "modules/madwww"]
 	path = modules/madwww
 	url = git@bitbucket.org:doublenode/madwww.git
