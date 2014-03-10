@@ -31,3 +31,6 @@
 [submodule "modules/madapi"]
 	path = modules/madapi
 	url = git@bitbucket.org:doublenode/madapi.git
+[submodule "modules/media"]
+	path = modules/media
+	url = git@github.com:Zeelot/kohana-media.git
