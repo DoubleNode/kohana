@@ -31,3 +31,6 @@
 [submodule "modules/madwww"]
 	path = modules/madwww
 	url = git@bitbucket.org:doublenode/madwww.git
+[submodule "modules/media"]
+	path = modules/media
+	url = git@github.com:Zeelot/kohana-media.git
