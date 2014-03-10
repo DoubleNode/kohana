@@ -28,3 +28,6 @@
 [submodule "modules/minion"]
 	path = modules/minion
 	url = https://github.com/kohana/minion.git
+[submodule "modules/media"]
+	path = modules/media
+	url = git@github.com:Zeelot/kohana-media.git
