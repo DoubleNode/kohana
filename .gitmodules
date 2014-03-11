@@ -31,3 +31,6 @@
 [submodule "modules/media"]
 	path = modules/media
 	url = git@github.com:Zeelot/kohana-media.git
+[submodule "modules/dnadmin"]
+	path = modules/dnadmin
+	url = git@github.com:DoubleNode/dnadmin.git
