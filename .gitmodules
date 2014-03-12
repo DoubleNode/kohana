@@ -15,7 +15,7 @@
 	url = https://github.com/kohana/orm.git
 [submodule "modules/auth"]
 	path = modules/auth
-	url = https://github.com/kohana/auth.git
+	url = git@github.com:DoubleNode/auth.git
 [submodule "modules/userguide"]
 	path = modules/userguide
 	url = https://github.com/kohana/userguide.git

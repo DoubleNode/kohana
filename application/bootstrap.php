@@ -65,6 +65,8 @@ mb_substitute_character('none');
 
 // -- Configuration and initialization -----------------------------------------
 
+Cookie::$salt = 'DoubleNode DNAdmin Cookie Salt';
+
 /**
  * Set the default language
  */
@@ -104,6 +106,14 @@ if (isset($_SERVER['KOHANA_ENV']))
  */
 Kohana::init(array(
 	'base_url'   => '/',
+
+	'errors'     => TRUE,
+	'profile'    => TRUE,
+	'expose'     => TRUE,
+
+	'caching'    => TRUE,
+	'cache_dir'  => APPPATH.'/cache',
+	'cache_life' => 60,
 ));
 
 /**
@@ -139,10 +149,12 @@ Kohana::modules(array(
  * Set the routes. Each route must have a minimum of a name, a URI and a set of
  * defaults for the URI.
  */
-Route::set('dnadmin', '(<controller>(/<action>(/<id>)))')
+/*
+ * Authentication shortcuts
+*/
+Route::set('auth', '<action>', array('action' => '(login|logout)'))
 	->defaults(array(
-		'controller' => 'dnadmin',
-		'action'     => 'index',
+		'controller' => 'auth'
 	));
 
 Route::set('default', '(<controller>(/<action>(/<id>)))')
