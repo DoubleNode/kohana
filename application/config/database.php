@@ -19,9 +19,9 @@ return array
 			 * Ports and sockets may be appended to the hostname.
 			 */
 			'hostname'   => 'localhost',
-			'database'   => 'DoubleNode',
-			'username'   => 'double',
-			'password'   => 'Q47ggP',
+			'database'   => 'realeyes',
+			'username'   => 'real',
+			'password'   => 'j67i#wjsd',
 			'persistent' => FALSE,
 		),
 		'table_prefix' => 'DNADM_',
