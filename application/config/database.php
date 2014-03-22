@@ -24,7 +24,7 @@ return array
 			'password'   => 'j67i#wjsd',
 			'persistent' => FALSE,
 		),
-		'table_prefix' => 'DNADM_',
+		'table_prefix' => 'DNAdmin_',
 		'charset'      => 'utf8',
 		'caching'      => FALSE,
 	),
