@@ -162,3 +162,5 @@ Route::set('default', '(<controller>(/<action>(/<id>)))')
 		'controller' => 'welcome',
 		'action'     => 'index',
 	));
+
+DNAdmin::$app_version = '1.0.0';
