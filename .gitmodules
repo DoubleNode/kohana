@@ -37,3 +37,6 @@
 [submodule "phpMyAdmin"]
 	path = phpMyAdmin
 	url = https://github.com/DoubleNode/phpmyadmin.git
+[submodule "modules/realeyes"]
+	path = modules/realeyes
+	url = git@bitbucket.org:doublenode/realeyes.git
