@@ -36,4 +36,4 @@
 	url = git@github.com:DoubleNode/dnadmin.git
 [submodule "phpMyAdmin"]
 	path = phpMyAdmin
-	url = git@github.com:DoubleNode/phpmyadmin.git
+	url = https://github.com/DoubleNode/phpmyadmin.git
