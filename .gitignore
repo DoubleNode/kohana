@@ -13,3 +13,7 @@ composer.phar
 vendor/*
 
 /application/logs/
+
+/application/cache/
+
+/media/

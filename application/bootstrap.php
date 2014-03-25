@@ -88,10 +88,10 @@ if (isset($_SERVER['KOHANA_ENV']))
 {
 	Kohana::$environment = constant('Kohana::'.strtoupper($_SERVER['KOHANA_ENV']));
 }
-//else
-//{
-//	Kohana::$environment = ($_SERVER['REMOTE_ADDR'] == '192.168.56.101' ? Kohana::DEVELOPMENT : Kohana::PRODUCTION);
-//}
+else
+{
+	Kohana::$environment = ($_SERVER['REMOTE_ADDR'] == '192.168.56.101' ? Kohana::DEVELOPMENT : Kohana::PRODUCTION);
+}
 
 /**
  * Initialize Kohana, setting the default options.
@@ -110,6 +110,7 @@ if (isset($_SERVER['KOHANA_ENV']))
  */
 Kohana::init(array(
 	'base_url'   => '/',
+	'index_file' => FALSE,
 
 	'errors'     => TRUE,
 	'profile'    => (Kohana::$environment !== Kohana::PRODUCTION),
@@ -147,7 +148,7 @@ Kohana::modules(array(
 
 	'dnadmin'    => MODPATH.'dnadmin',    // DoubleNode Admin
 
-	));
+));
 
 /**
  * Set the routes. Each route must have a minimum of a name, a URI and a set of
