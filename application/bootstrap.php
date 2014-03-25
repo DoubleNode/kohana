@@ -147,7 +147,7 @@ Kohana::modules(array(
 	'userguide'  => MODPATH.'userguide',  // User guide and API documentation
 
 	'dnadmin'    => MODPATH.'dnadmin',    // DoubleNode Admin
-
+	'realeyes'   => MODPATH.'realeyes',   // ReaLEyes
 ));
 
 /**
