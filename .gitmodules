@@ -43,9 +43,6 @@
 [submodule "modules/restful-api"]
 	path = modules/restful-api
 	url = git@github.com:SupersonicAds/kohana-restful-api.git
-[submodule "modules/restful-api-example"]
-	path = modules/restful-api-example
-	url = git@github.com:SupersonicAds/kohana-restful-api-example.git
 [submodule "modules/partials"]
 	path = modules/partials
 	url = git@github.com:gevans/kohana-partials.git
