@@ -146,8 +146,6 @@ Kohana::modules(array(
 	'unittest'   	=> MODPATH.'unittest',   	// Unit testing
 	'userguide'  	=> MODPATH.'userguide',  	// User guide and API documentation
 
-	'restful-api-example'	=> MODPATH.'restful-api-example',	// RESTful API Example (REMOVE FOR PRODUCTION)
-
 	'partials' 		=> MODPATH.'partials',   	// Partial templates
 	'restful-api' 	=> MODPATH.'restful-api',	// RESTful API
 
