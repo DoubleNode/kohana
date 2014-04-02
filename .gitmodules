@@ -34,3 +34,15 @@
 [submodule "modules/media"]
 	path = modules/media
 	url = git@github.com:Zeelot/kohana-media.git
+[submodule "modules/dnadmin"]
+	path = modules/dnadmin
+	url = git@bitbucket.org:doublenode/dnadmin-kohana.git
+[submodule "phpMyAdmin"]
+	path = phpMyAdmin
+	url = https://github.com/DoubleNode/phpmyadmin.git
+[submodule "modules/restful-api"]
+	path = modules/restful-api
+	url = git@github.com:DoubleNode/kohana-restful-api.git
+[submodule "modules/partials"]
+	path = modules/partials
+	url = git@github.com:gevans/kohana-partials.git
