@@ -120,15 +120,22 @@ Kohana::$config->attach(new Config_File);
  * Enable modules. Modules are referenced by a relative or absolute path.
  */
 Kohana::modules(array(
-	// 'auth'       => MODPATH.'auth',       // Basic authentication
-	// 'cache'      => MODPATH.'cache',      // Caching with multiple backends
-	// 'codebench'  => MODPATH.'codebench',  // Benchmarking tool
-	// 'database'   => MODPATH.'database',   // Database access
-	// 'image'      => MODPATH.'image',      // Image manipulation
-	// 'minion'     => MODPATH.'minion',     // CLI Tasks
-	// 'orm'        => MODPATH.'orm',        // Object Relationship Mapping
-	// 'unittest'   => MODPATH.'unittest',   // Unit testing
-	// 'userguide'  => MODPATH.'userguide',  // User guide and API documentation
+	'auth'       	=> MODPATH.'auth',       	// Basic authentication
+	'cache'      	=> MODPATH.'cache',      	// Caching with multiple backends
+	'codebench'  	=> MODPATH.'codebench',  	// Benchmarking tool
+	'database'   	=> MODPATH.'database',   	// Database access
+	'image'      	=> MODPATH.'image',      	// Image manipulation
+	'media'      	=> MODPATH.'media',      	// Media serving
+	'minion'     	=> MODPATH.'minion',     	// CLI Tasks
+	'orm'        	=> MODPATH.'orm',        	// Object Relationship Mapping
+	'unittest'   	=> MODPATH.'unittest',   	// Unit testing
+	'userguide'  	=> MODPATH.'userguide',  	// User guide and API documentation
+
+	'partials' 		=> MODPATH.'partials',   	// Partial templates
+	'restful-api' 	=> MODPATH.'restful-api',	// RESTful API
+	
+	'dnadmin'    	=> MODPATH.'dnadmin',    	// DoubleNode Admin
+	'madapi'   		=> MODPATH.'madapi',   		// MADStudios API
 	));
 
 /**
