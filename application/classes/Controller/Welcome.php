@@ -14,7 +14,7 @@ class Controller_Welcome extends Controller {
   
    <style type="text/css">
 	html{
-		background-image: url(img/mad_bg.jpg);
+		background-image: url(/modules/madwww/media/assets/img/mad_bg.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
 		height: 100%;
@@ -82,7 +82,7 @@ class Controller_Welcome extends Controller {
 
 <body>
 <div class="wrapper">
-  <img src="img/mad_logo.png" class="logo"/>
+  <img src="/modules/madwww/media/assets/img/mad_logo.png" class="logo"/>
 </div>
 
 </div>
