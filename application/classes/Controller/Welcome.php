@@ -11,48 +11,71 @@ class Controller_Welcome extends Controller {
   <meta charset="utf-8">
 
   <title>MAD Studios</title>
-
-  <link rel="stylesheet" href="css/styles.css">
   
    <style type="text/css">
-   
-   h1 {border-width: 1; border: solid; text-align: center}
-   html{
-   		background-image: url(img/mad_bg.jpg);
-   		background-repeat: no-repeat;
-   		background-size: cover;
-   		height: 100%;
-   		width: 100%;
-   }
-   .wrapper{
-	   width: 60%;
-	   margin: 15% auto 0;
-	   
-   }
-   
-   .logo{
-	   width: 100%;
-	   height: auto;
-   }
-   @media only screen and (max-width: 701px){
-			/*------ top header ------ */
-           .wrapper{
-	   width: 70%;
-	   margin: 40% auto 0;
-	   
-	   }
+	html{
+		background-image: url(img/mad_bg.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100%;
+		width: 100%;
+	}
+	
+	.logo{
+		width: 100%;
+		height: auto;
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	
+	.wrapper{
+		left: 50%;
+		top: 50%;
+		height: 65%;
+		width: 65%;
+		position: absolute;
+		text-align: center;
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform:    translate(-50%, -50%);
+		-ms-transform:     translate(-50%, -50%);
+		-o-transform:      translate(-50%, -50%);
+		transform:         translate(-50%, -50%);
+	}
+	
+	.logo{
+		display: block;
+		padding-top: 10%;
+		position: relative;
+		top: 50%;
+		opacity: .8;
+		-webkit-transform: translateY(-50%);
+		-moz-transform:    translateY(-50%);
+		-ms-transform:     translateY(-50%);
+		-o-transform:      translateY(-50%);
+		transform:         translateY(-50%);
+	}
+
  
-			
-		}
+@media only screen and (max-width: 701px){	
+	.wrapper {
+		left: 50%;
+		top: 50%;
+		height: 75%;
+		width: 75%;
+	}		
+}
 		
-		@media only screen and (max-width: 479px){
-			.wrapper{
-	   width: 80%;
-	   margin: 50% auto 0;
-	   
-	   }
-   		}
-   
+@media only screen and (max-width: 479px){
+	.wrapper {
+		left: 50%;
+		top: 50%;
+		height: 80%;
+		width: 80%;
+	}
+}
+
+
    
    </style>
 </head>
@@ -60,6 +83,9 @@ class Controller_Welcome extends Controller {
 <body>
 <div class="wrapper">
   <img src="img/mad_logo.png" class="logo"/>
+</div>
+
+</div>
 </div>
 </body>
 </html>';
