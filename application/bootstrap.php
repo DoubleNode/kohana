@@ -130,12 +130,13 @@ Kohana::modules(array(
 	'orm'        	=> MODPATH.'orm',        	// Object Relationship Mapping
 	'unittest'   	=> MODPATH.'unittest',   	// Unit testing
 	'userguide'  	=> MODPATH.'userguide',  	// User guide and API documentation
+	
+	'dnadmin'    	=> MODPATH.'dnadmin',    	// DoubleNode Admin
+	'madapi'   		=> MODPATH.'madapi',   		// MADStudios API
 
 	'partials' 		=> MODPATH.'partials',   	// Partial templates
 	'restful-api' 	=> MODPATH.'restful-api',	// RESTful API
 	
-	'dnadmin'    	=> MODPATH.'dnadmin',    	// DoubleNode Admin
-	'madapi'   		=> MODPATH.'madapi',   		// MADStudios API
 	));
 
 /**
