@@ -46,3 +46,6 @@
 [submodule "modules/partials"]
 	path = modules/partials
 	url = git@github.com:gevans/kohana-partials.git
+[submodule "modules/goalive"]
+	path = modules/goalive
+	url = git@bitbucket.org:doublenode/goalive-kohana.git
