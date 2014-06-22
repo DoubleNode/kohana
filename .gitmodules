@@ -46,3 +46,6 @@
 [submodule "modules/partials"]
 	path = modules/partials
 	url = git@github.com:gevans/kohana-partials.git
+[submodule "modules/parley"]
+	path = modules/parley
+	url = git@bitbucket.org:parleyconf/parley-kohana.git
