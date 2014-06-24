@@ -146,8 +146,11 @@ Kohana::modules(array(
 	'unittest'   	=> MODPATH.'unittest',   	// Unit testing
 	'userguide'  	=> MODPATH.'userguide',  	// User guide and API documentation
 
+	'devtools'     	=> MODPATH.'devtools',      // Devtools
+
 	'dnadmin'    	=> MODPATH.'dnadmin',    	// DoubleNode Admin
-	'realeyes'   	=> MODPATH.'realeyes',   	// ReaLEyes
+	'goalive'   	=> MODPATH.'goalive',   	// GoAlive Admin
+	'realeyes'   	=> MODPATH.'realeyes',   	// RealEyes
 
 	'partials' 		=> MODPATH.'partials',   	// Partial templates
 	'restful-api' 	=> MODPATH.'restful-api',	// RESTful API

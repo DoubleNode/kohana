@@ -49,3 +49,6 @@
 [submodule "modules/goalive"]
 	path = modules/goalive
 	url = git@bitbucket.org:doublenode/goalive-kohana.git
+[submodule "modules/devtools"]
+	path = modules/devtools
+	url = git@github.com:michal-m/kohana-modules-devtools.git
