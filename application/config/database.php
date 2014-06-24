@@ -19,9 +19,9 @@ return array
 			 * Ports and sockets may be appended to the hostname.
 			 */
 			'hostname'   => 'localhost',
-			'database'   => 'realeyes',
-			'username'   => 'real',
-			'password'   => 'j67i#wjsd',
+			'database'   => 'goalivedb',
+			'username'   => 'goaliveuser',
+			'password'   => 'goalive2113',
 			'persistent' => FALSE,
 		),
 		'table_prefix' => '',
