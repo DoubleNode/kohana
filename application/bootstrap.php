@@ -93,6 +93,8 @@ else
 	Kohana::$environment = ($_SERVER['REMOTE_ADDR'] == '192.168.56.101' ? Kohana::DEVELOPMENT : Kohana::PRODUCTION);
 }
 
+Kohana::$environment = Kohana::DEVELOPMENT;
+
 /**
  * Initialize Kohana, setting the default options.
  *
