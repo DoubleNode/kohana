@@ -151,8 +151,8 @@ Kohana::modules(array(
 	'devtools'     	=> MODPATH.'devtools',      // Devtools
 
 	'dnadmin'    	=> MODPATH.'dnadmin',    	// DoubleNode Admin
+	'realeyes'   	=> MODPATH.'realeyes',   	// RealEyes API & Admin
 	'goalive'   	=> MODPATH.'goalive',   	// GoAlive Admin
-	'realeyes'   	=> MODPATH.'realeyes',   	// RealEyes
 
 	'partials' 		=> MODPATH.'partials',   	// Partial templates
 	'restful-api' 	=> MODPATH.'restful-api',	// RESTful API
