@@ -147,8 +147,8 @@ Kohana::modules(array(
 	'userguide'  	=> MODPATH.'userguide',  	// User guide and API documentation
 
 	'dnadmin'    	=> MODPATH.'dnadmin',    	// DoubleNode Admin
-	'parley'	   	=> MODPATH.'parley',	   	// Parley
 	'realeyes'   	=> MODPATH.'realeyes',   	// ReaLEyes
+	'parley'	   	=> MODPATH.'parley',	   	// Parley
 
 	'partials' 		=> MODPATH.'partials',   	// Partial templates
 	'restful-api' 	=> MODPATH.'restful-api',	// RESTful API
