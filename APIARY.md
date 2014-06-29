@@ -103,7 +103,7 @@ Auth related resources of the **Auth API**
                     "lastname": "Rose LOGIN",
                     "title": "Mock Agent 37266",
                     "firstname": "Samuel",
-                    "updated": "1404069255",
+                    "modified": "1404069255",
                     "added": "1404057955",
                     "email": "samuel.rose40@example.com",
                     "phone": "(450)-357-2099",
@@ -161,7 +161,7 @@ People related resources of the **MAD Studios API**
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c1a65",
                             "path": "http://cdn.madstudios.com/0adff6e0-e08c-11e3-8b68-0800200c1a65.png",
                             "added" : 1398311635,
-                            "updated" : 1398311635
+                            "modified" : 1398311635
                         },
                         "locations": [
                         {
@@ -171,7 +171,7 @@ People related resources of the **MAD Studios API**
                                 "building_type_id": "1",
                                 "latitude": "33.895396",
                                 "city": "Wichita Falls",
-                                "updated": "1404057954",
+                                "modified": "1404057954",
                                 "name": "Studio 37266",
                                 "hourly_price": "100000",
                                 "location_type_id": "3",
@@ -197,7 +197,7 @@ People related resources of the **MAD Studios API**
                             }
                         }
                         ],
-                        "updated": "1398311635",
+                        "modified": "1398311635",
                         "added": "1398311635"
                     }
                 },
@@ -213,9 +213,9 @@ People related resources of the **MAD Studios API**
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c1a61",
                             "path": "http://cdn.madstudios.com/0adff6e0-e08c-11e3-8b68-0800200c1a61.png",
                             "added" : 1398311635,
-                            "updated" : 1398311635
+                            "modified" : 1398311635
                         }
-                        "updated": "1398331635",
+                        "modified": "1398331635",
                         "added": "1398331635"
                     }
                 },
@@ -231,10 +231,10 @@ People related resources of the **MAD Studios API**
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c1a63",
                             "path": "http://cdn.madstudios.com/0adff6e0-e08c-11e3-8b68-0800200c1a63.png",
                             "added" : 1398311635,
-                            "updated" : 1398311635
+                            "modified" : 1398311635
                         },
                         "added": "1398351635"
-                        "updated": "1398351635"
+                        "modified": "1398351635"
                     }
                 }
             ]
@@ -290,10 +290,10 @@ People related resources of the **MAD Studios API**
                         "id" : "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                         "path": "http://cdn.madstudios.com/0adff6e0-e08c-11e3-8b68-0800200c9a64.png",
                         "added": "1398311635",
-                        "updated": "1398311635"
+                        "modified": "1398311635"
                     },
                     "added": "1398311635",
-                    "updated": "1398311635"
+                    "modified": "1398311635"
                 }
             }
         }
@@ -345,9 +345,9 @@ People related resources of the **MAD Studios API**
                         "id" : "0adff6e0-e08c-11e3-8b68-0800200c9a65",
                         "path": "http://lorempixel.com/1024/768/technics/?4",
                         "added": "1398311635",
-                        "updated": "1398311635"
+                        "modified": "1398311635"
                     }
-                    "updated": "1398311635",
+                    "modified": "1398311635",
                     "added": "1398311635",
                     
                 }
@@ -388,7 +388,7 @@ A single Person object with all its details
                         "id" : "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                         "path": "http://cdn.madstudios.com/0adff6e0-e08c-11e3-8b68-0800200c9a64.png",
                         "added": "1398311635",
-                        "updated": "1398311635"
+                        "modified": "1398311635"
                     }
                     "added": "1398311635",
                     "added": "1398311635"
@@ -483,14 +483,14 @@ Filter Parameters
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                             "path": "http://cdn.madstudios.com/0adff6e0-e08c-11e3-8b68-0800200c9a64.png",
                             "added": 1400256035,
-                            "updated": 1400256035
+                            "modified": 1400256035
                         },
                         "location_type": [
                             {
                                 "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                                 "title": "Recording Studio",
                                 "added": 1400256035,
-                                "updated": 1400256035
+                                "modified": 1400256035
                             }
                         ],
                         "building_type": [
@@ -498,7 +498,7 @@ Filter Parameters
                                 "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                                 "title": "Business",
                                 "added": 1400256035,
-                                "updated": 1400256035
+                                "modified": 1400256035
                             }
                         ],
                         "agent": {
@@ -512,10 +512,10 @@ Filter Parameters
                                 "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                                 "path": "http://cdn.madstudios.com/0adff6e0-e08c-11e3-8b68-0800200c9a64.png",
                                 "added": 1400256035,
-                                "updated": 1400256035
+                                "modified": 1400256035
                             },
                             "added": 1400256035,
-                            "updated": 1400256035
+                            "modified": 1400256035
                         },
                         "studio_hours": [
                             {
@@ -524,7 +524,7 @@ Filter Parameters
                                 "close": "1396224000",
                                 "day": "1",
                                 "added": "1398052567",
-                                "updated": "1398052567",
+                                "modified": "1398052567",
                             },
                             {
                                 "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
@@ -532,7 +532,7 @@ Filter Parameters
                                 "close": "1396224000",
                                 "day": "2",
                                 "added": "1398052567",
-                                "updated": "1398052567"
+                                "modified": "1398052567"
                             },
                             {
                                 "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
@@ -540,14 +540,14 @@ Filter Parameters
                                 "close": "1396224000",
                                 "day": "3",
                                 "added": "1398052567",
-                                "updated": "1398052567"
+                                "modified": "1398052567"
                             },
                             {
                                 "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                                 "open": "1396191600",
                                 "close": "1396224000",
                                 "day": "4",
-                                "updated": "1398052567",
+                                "modified": "1398052567",
                                 "added": "1398052567"
                             },
                             {
@@ -555,7 +555,7 @@ Filter Parameters
                                 "open": "1396191600",
                                 "close": "1396224000",
                                 "day": "5",
-                                "updated": "1398052567",
+                                "modified": "1398052567",
                                 "added": "1398052567"
                             }
                         ],
@@ -567,7 +567,7 @@ Filter Parameters
                                 "rating": "40",
                                 "review": "It's OK"
                                 "added": "1396410330",
-                                "updated": "1396410330"
+                                "modified": "1396410330"
                             },
                             {
                                 "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
@@ -576,7 +576,7 @@ Filter Parameters
                                 "rating": "100",
                                 "review": "Amazing Staff"
                                 "added": "1396410330",
-                                "updated": "1396410330"
+                                "modified": "1396410330"
                             }
                         ],
                         "equipment": [
@@ -589,11 +589,11 @@ Filter Parameters
                                         "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                                         "title" : "Console",
                                         "added" : 1396410330,
-                                        "updated" 1396410330: 
+                                        "modified" 1396410330: 
                                     }
                                 ],
                                 "about": "All Discrete Amps 28 Inputs, 52 Channels on Mix (2) 32264a Compressor / Limiters Uptown 990 Moving Fader Automation",
-                                "updated": "1397102362",
+                                "modified": "1397102362",
                                 "added": "1397102362"
                             },
                             {
@@ -605,16 +605,16 @@ Filter Parameters
                                         "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                                         "title" : "Recorders",
                                         "added" : 1396410330,
-                                        "updated" 1396410330: 
+                                        "modified" 1396410330: 
                                     }
                                 ],
                                 "about": "32 channels of Apogee I/O - Apogee AD16-X & DA-16X Converters - Apogee Big Ben Master Clock - Dual 2.6Ghz Intel based Mac Pro - Pro Tools version 7.3 - Extensive plug-ins and production software"
-                                "updated": "1397102562",
+                                "modified": "1397102562",
                                 "added": "1397102562"
                             }
                         ],
                         "added": "1397015532",
-                        "updated": "1397015581"
+                        "modified": "1397015581"
                     }
                 },
                 {
@@ -639,14 +639,14 @@ Filter Parameters
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                             "path": "http://cdn.madstudios.com/0adff6e0-e08c-11e3-8b68-0800200c9a64.png",
                             "added": 1398484578,
-                            "updated": 1398484578
+                            "modified": 1398484578
                         },
                         "location_type": [
                             {
                                 "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                                 "title": "Dance Studio",
                                 "added": 1400256035,
-                                "updated": 1400256035
+                                "modified": 1400256035
                             }
                         ],
                         "building_type": [
@@ -654,7 +654,7 @@ Filter Parameters
                                 "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                                 "title": "Stand Alone Building",
                                 "added": 1400256035,
-                                "updated": 1400256035
+                                "modified": 1400256035
                             },
                         "agent": {
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
@@ -667,10 +667,10 @@ Filter Parameters
                                 "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                                 "path": "http://lorempixel.com/1024/768/technics/?2",
                                 "added": 1398484578,
-                                "updated": 1398484578
+                                "modified": 1398484578
                             },
                             "added": 1400256035,
-                            "updated": 1400256035
+                            "modified": 1400256035
                         },
                         "studio_hours": [
                             {
@@ -679,7 +679,7 @@ Filter Parameters
                                 "close": "1396224000",
                                 "day": "1",
                                 "added": "1398484578",
-                                "updated": "1398484578"
+                                "modified": "1398484578"
                             },
                             {
                                 "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
@@ -687,7 +687,7 @@ Filter Parameters
                                 "close": "1396224000",
                                 "day": "2",
                                 "added": "1398484578",
-                                "updated": "1398484578"
+                                "modified": "1398484578"
                             },
                             {
                                 "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
@@ -695,7 +695,7 @@ Filter Parameters
                                 "close": "1396224000",
                                 "day": "3",
                                 "added": "1398484578",
-                                "updated": "1398484578"
+                                "modified": "1398484578"
                             },
                             {
                                 "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
@@ -703,7 +703,7 @@ Filter Parameters
                                 "close": "1396224000",
                                 "day": "4",
                                 "added": "1398484578",
-                                "updated": "1398484578"
+                                "modified": "1398484578"
                             },
                             {
                                 "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
@@ -711,7 +711,7 @@ Filter Parameters
                                 "close": "1396224000",
                                 "day": "5",
                                 "added": "1398484578",
-                                "updated": "1398484578"
+                                "modified": "1398484578"
                             }
                         ],
                         "rating": "55",
@@ -723,7 +723,7 @@ Filter Parameters
                                 "rating": "85",
                                 "review": "Good Stuff"
                                 "added": "1396410330",
-                                "updated": "1396410330"
+                                "modified": "1396410330"
                             },
                             {
                                 "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
@@ -732,7 +732,7 @@ Filter Parameters
                                 "rating": "25",
                                 "review": "Bad Stuff"
                                 "added": "1396410330",
-                                "updated": "1396410330"
+                                "modified": "1396410330"
                             }
                         ],
                         "equipment": [
@@ -745,11 +745,11 @@ Filter Parameters
                                         "id" : "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                                         "title" : "Console",
                                         "added" : 1396410330,
-                                        "updated" 1396410330: 
+                                        "modified" 1396410330: 
                                     }
                                 ],
                                 "about": "All Discrete Amps 28 Inputs, 52 Channels on Mix (2) 32264a Compressor / Limiters Uptown 990 Moving Fader Automation",
-                                "updated": "1397102362",
+                                "modified": "1397102362",
                                 "added": "1397102362"
                             },
                             {
@@ -761,16 +761,16 @@ Filter Parameters
                                         "id" : "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                                         "title" : "Recorders",
                                         "added" : 1396410330,
-                                        "updated" 1396410330: 
+                                        "modified" 1396410330: 
                                     }
                                 ],
                                 "about": "32 channels of Apogee I/O - Apogee AD16-X & DA-16X Converters - Apogee Big Ben Master Clock - Dual 2.6Ghz Intel based Mac Pro - Pro Tools version 7.3 - Extensive plug-ins and production software"
-                                "updated": "1397102562",
+                                "modified": "1397102562",
                                 "added": "1397102562"
                             }
                         ],
                         "added": "1396756388",
-                        "updated": "1396756388"
+                        "modified": "1396756388"
                     }
                 }
             ]
@@ -917,14 +917,14 @@ Filter Parameters
                         "id": null,
                         "path": null,
                         "added": 0,
-                        "updated": 0
+                        "modified": 0
                     },
                     "location_type": [
                         {
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                             "title": "Dance Studio",
                             "added": 1400256035,
-                            "updated": 1400256035
+                            "modified": 1400256035
                         }
                     ],
                     "building_type": [
@@ -932,7 +932,7 @@ Filter Parameters
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                             "title": "Stand Alone Building",
                             "added": 1400256035,
-                            "updated": 1400256035
+                            "modified": 1400256035
                         }
                     ],
                     "agent": {
@@ -946,9 +946,9 @@ Filter Parameters
                             "id": null,
                             "path": null,
                             "added": 0,
-                            "updated": 0
+                            "modified": 0
                         },
-                        "updated": "1398331635",
+                        "modified": "1398331635",
                         "added": "1398331635",
                     },
                     "hours": [
@@ -958,7 +958,7 @@ Filter Parameters
                             "close": "1400108409",
                             "day": "3",
                             "added": "1398331635",
-                            "updated": "1398331635"
+                            "modified": "1398331635"
                         },
                         {
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
@@ -966,7 +966,7 @@ Filter Parameters
                             "close": "1400108409",
                             "day": "4",
                             "added": "1398331635",
-                            "updated": "1398331635"
+                            "modified": "1398331635"
                         },
                         {
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
@@ -974,7 +974,7 @@ Filter Parameters
                             "close": "1400108409",
                             "day": "5",
                             "added": "1398331635",
-                            "updated": "1398331635"
+                            "modified": "1398331635"
                         },
                         {
                            "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
@@ -982,7 +982,7 @@ Filter Parameters
                             "close": "1400108409",
                             "day": "6",
                             "added": "1398331635",
-                            "updated": "1398331635"
+                            "modified": "1398331635"
                         },
                         {
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
@@ -990,7 +990,7 @@ Filter Parameters
                             "close": "1400108409",
                             "day": "7",
                             "added": "1398331635",
-                            "updated": "1398331635"
+                            "modified": "1398331635"
                         }
                     ],
                     "rating": "0",
@@ -1005,25 +1005,25 @@ Filter Parameters
                             "title":"Microphones",
                             "quantity" : 2,
                             "added": "1398331635",
-                            "updated": "1398331635"
+                            "modified": "1398331635"
                         },
                         {
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                             "title":"Drum Riser",
                             "quantity" : 1,
                             "added": "1398331635",
-                            "updated": "1398331635"
+                            "modified": "1398331635"
                         },
                         {
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                             "title":"Monitors",
                             "quantity" : 4,
                             "added": "1398331635",
-                            "updated": "1398331635"
+                            "modified": "1398331635"
                         }
                     ],
                     "added": "1396756388",
-                    "updated": "1396756388"
+                    "modified": "1396756388"
                 }
             }
         }
@@ -1066,7 +1066,7 @@ Filter Parameters
                             id: "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                             title: "Recording Studio",
                             "added": 1400256035,
-                            "updated": 1400256035
+                            "modified": 1400256035
                         }
                     ],
                     "about": "Tree Sound Studios is a unique blend of vision, precision, and the desire to make great music. We provide our clients with an atmosphere designed to excite and inspire. Our accommodating staff prides itself on providing the individual attention that every recording artist needs. Detail, combined with technical expertise and dedication make Tree Sound Studios an ideal recording studio for audio projects of all levels. We are located just 20 minutes from Buckhead in Atlanta, GA, ask about our complimentary bio-diesel car service to take you to and from the studio.",
@@ -1075,7 +1075,7 @@ Filter Parameters
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                             "title": "Business",
                             "added": 1400256035,
-                            "updated": 1400256035
+                            "modified": 1400256035
                         }
                     ],
                     "equipment": {
@@ -1085,12 +1085,12 @@ Filter Parameters
                                 "id": 1,
                                 "title": "Microphone",
                                 "added": 1400256035,
-                                "updated": 1400256035
+                                "modified": 1400256035
                             },
                             "about": "",
                             "quantity": 1,
                             "added": 1400256035,
-                            "updated": 1400256035
+                            "modified": 1400256035
                         },
                         {
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
@@ -1099,12 +1099,12 @@ Filter Parameters
                                 "id": 1,
                                 "title": "Microphone",
                                 "added": 1400256035,
-                                "updated": 1400256035
+                                "modified": 1400256035
                             },
                             "about": "",
                             "quantity": 2,
                             "added": 1400256035,
-                            "updated": 1400256035
+                            "modified": 1400256035
                         },
                     "hourly_price": "2000",
                     "agent": {
@@ -1118,10 +1118,10 @@ Filter Parameters
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                             "path": "http://cdn.madstudios.com/0adff6e0-e08c-11e3-8b68-0800200c9a64.png",
                             "added": 1400256035,
-                            "updated": 1400256035
+                            "modified": 1400256035
                         },
                         "added": 1400256035,
-                        "updated": 1400256035
+                        "modified": 1400256035
                     },
                     "rating": "75.5",
                     "reviews": [
@@ -1131,7 +1131,7 @@ Filter Parameters
                             "review": "Good Stuff",
                             "person_id": 2,
                             "added": 1400256035,
-                            "updated": 1400256035
+                            "modified": 1400256035
                         },
                         {
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
@@ -1139,7 +1139,7 @@ Filter Parameters
                             "review": "Bad Stuff",
                             "person_id": 3,
                             "added": 1400256035,
-                            "updated": 1400256035
+                            "modified": 1400256035
                         }
                     ],
                     "phone": "940-349-9229",
@@ -1150,7 +1150,7 @@ Filter Parameters
                         "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                         "path": "http://cdn.madstudios.com/0adff6e0-e08c-11e3-8b68-0800200c9a64.png",
                         "added": 1400256035,
-                        "updated": 1400256035
+                        "modified": 1400256035
                     },
                     "hours": [
                         {
@@ -1159,7 +1159,7 @@ Filter Parameters
                             "open": "1396191600",
                             "close": "1396224000",
                             "added": 1400256035,
-                            "updated": 1400256035
+                            "modified": 1400256035
                         },
                         {
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
@@ -1167,7 +1167,7 @@ Filter Parameters
                             "open": "1396191600",
                             "close": "1396224000",
                             "added": 1400256035,
-                            "updated": 1400256035
+                            "modified": 1400256035
                         },
                         {
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
@@ -1175,7 +1175,7 @@ Filter Parameters
                             "open": "1396191600",
                             "close": "1396224000",
                             "added": 1400256035,
-                            "updated": 1400256035
+                            "modified": 1400256035
                         },
                         {
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
@@ -1183,7 +1183,7 @@ Filter Parameters
                             "open": "1396191600",
                             "close": "1396224000",
                             "added": 1400256035,
-                            "updated": 1400256035
+                            "modified": 1400256035
                         },
                         {
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
@@ -1191,13 +1191,13 @@ Filter Parameters
                             "open": "1396191600",
                             "close": "1396224000",
                             "added": 1400256035,
-                            "updated": 1400256035
+                            "modified": 1400256035
                         }
                     ],
                     "service_fee": "2000",
                     "turn_time": "1440",
                     "added": 1400256035,
-                    "updated": 1400256035
+                    "modified": 1400256035
                 }
             }
         }
@@ -1265,7 +1265,7 @@ Filter Parameters
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                             "title": "Recording Studio",
                             "added": 1396410330,
-                            "updated": 1396410330
+                            "modified": 1396410330
                         }
                     ],
                     "about": "Tree Sound Studios is a unique blend of vision, precision, and the desire to make great music. We provide our clients with an atmosphere designed to excite and inspire. Our accommodating staff prides itself on providing the individual attention that every recording artist needs. Detail, combined with technical expertise and dedication make Tree Sound Studios an ideal recording studio for audio projects of all levels. We are located just 20 minutes from Buckhead in Atlanta, GA, ask about our complimentary bio-diesel car service to take you to and from the studio.",
@@ -1274,7 +1274,7 @@ Filter Parameters
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                             "title": "Business",
                             "added": 1396410330,
-                            "updated": 1396410330
+                            "modified": 1396410330
                         }
                     ],
                     "equipment": [
@@ -1285,12 +1285,12 @@ Filter Parameters
                                 "id": 1,
                                 "title": "Microphone",
                                 "added": 1400256035,
-                                "updated": 1400256035
+                                "modified": 1400256035
                             },
                             "about": "",
                             "quantity": 1,
                             "added": 1400256035,
-                            "updated": 1400256035
+                            "modified": 1400256035
                         },
                         {
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
@@ -1299,12 +1299,12 @@ Filter Parameters
                                 "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                                 "title": "Microphone",
                                 "added": 1400256035,
-                                "updated": 1400256035
+                                "modified": 1400256035
                             },
                             "about": "",
                             "quantity": 2,
                             "added": 1400256035,
-                            "updated": 1400256035
+                            "modified": 1400256035
                         }
                     ],
                     "hourly_price": "2000",
@@ -1319,10 +1319,10 @@ Filter Parameters
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                             "path": "http://cdn.madstudios.com/0adff6e0-e08c-11e3-8b68-0800200c9a64.png",
                             "added": 1396410330,
-                            "updated": 1396410330
+                            "modified": 1396410330
                         },
                         "added": 1400256035,
-                        "updated": 1400256035
+                        "modified": 1400256035
                     },
                     "rating": "75.5",
                     "reviews": [
@@ -1332,7 +1332,7 @@ Filter Parameters
                             "review": "Good Stuff",
                             "person_id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                             "added": 1396410330,
-                            "updated": 1396410330
+                            "modified": 1396410330
                         },
                         {
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
@@ -1340,7 +1340,7 @@ Filter Parameters
                             "review": "Bad Stuff",
                             "person_id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                             "added": 1396410330,
-                            "updated": 1396410330
+                            "modified": 1396410330
                         }
                     ],
                     "phone": "940-349-9229",
@@ -1351,7 +1351,7 @@ Filter Parameters
                         "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                         "path": "http://cdn.madstudios.com/0adff6e0-e08c-11e3-8b68-0800200c9a64.png",
                         "added": 1396410330,
-                        "updated": 1396410330
+                        "modified": 1396410330
                     },
                     "hours": [
                         {
@@ -1360,7 +1360,7 @@ Filter Parameters
                             "open": "1396191600",
                             "close": "1396224000",
                             "added": 1396410330,
-                            "updated": 1396410330
+                            "modified": 1396410330
                         },
                         {
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
@@ -1368,7 +1368,7 @@ Filter Parameters
                             "open": "1396191600"
                             "close": "1396224000",
                             "added": 1396410330,
-                            "updated": 1396410330
+                            "modified": 1396410330
                         },
                         {
                            "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
@@ -1376,7 +1376,7 @@ Filter Parameters
                             "open": "1396191600",
                             "close": "1396224000",
                             "added": 1396410330,
-                            "updated": 1396410330
+                            "modified": 1396410330
                         },
                         {
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
@@ -1384,7 +1384,7 @@ Filter Parameters
                             "open": "1396191600",
                             "close": "1396224000",
                             "added": 1396410330,
-                            "updated": 1396410330
+                            "modified": 1396410330
                         },
                         {
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
@@ -1392,13 +1392,13 @@ Filter Parameters
                             "open": "1396191600",
                             "close": "1396224000",
                             "added": 1396410330,
-                            "updated": 1396410330
+                            "modified": 1396410330
                         }
                     ],
                     "service_fee": "2000",
                     "turn_time": "1440",
                     "added": 1396410330,
-                    "updated": 1396410330
+                    "modified": 1396410330
                 }
             }
         }
@@ -1477,7 +1477,7 @@ Hour related resources of the **MAD Studios API**
                     "close": "1396224000",
                     "day": "7",
                     "added": "1399870167",
-                    "updated": 1399870861
+                    "modified": 1399870861
                 }
             }
         }
@@ -1522,7 +1522,7 @@ Hour related resources of the **MAD Studios API**
                     "close": "1396224000",
                     "day": "7",
                     "added": "1399870167",
-                    "updated": 1399870861
+                    "modified": 1399870861
                 }
             }
         }
@@ -1638,13 +1638,13 @@ Returns a alphabetical list of Equipment
                             "id" : "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                             "title": "Console",
                             "added": 1399870167,
-                            "updated": 1399870861
+                            "modified": 1399870861
                         }
                     ],
                     "about": "Taskcam",
                     "quantity": 2,
                     "added": 1399870167,
-                    "updated": 1399870861
+                    "modified": 1399870861
                 }
             }
         }
@@ -1694,11 +1694,11 @@ Returns a alphabetical list of Equipment
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                             "title": "Console",
                             "added": 1399870167,
-                            "updated": 1399870861
+                            "modified": 1399870861
                         }
                     ],
                     "added": 1399870167,
-                    "updated": 1399870861
+                    "modified": 1399870861
                 }
             }
         }
@@ -1759,7 +1759,7 @@ Alphabetical List of Location Types
                         "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                         "title": "Dance Studio",
                         "added": 1399870167,
-                        "updated": 1399870167
+                        "modified": 1399870167
                     }
                 },
                 {
@@ -1767,7 +1767,7 @@ Alphabetical List of Location Types
                         "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                         "title": "Recording Studio",
                         "added": 1399870167,
-                        "updated": 1399870167
+                        "modified": 1399870167
                     }
                 },
                 {
@@ -1775,7 +1775,7 @@ Alphabetical List of Location Types
                         "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                         "title": "Other Studio",
                         "added": 1399870167,
-                        "updated": 1399870167
+                        "modified": 1399870167
                     }
                 }
             ]
@@ -1812,7 +1812,7 @@ Alphabetical List of Building Types
                         "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                         "title": "Business",
                         "added": 1399870167,
-                        "updated": 1399870167
+                        "modified": 1399870167
                     }
                 },
                 {
@@ -1820,7 +1820,7 @@ Alphabetical List of Building Types
                         "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                         "title": "House",
                         "added": 1399870167,
-                        "updated": 1399870167
+                        "modified": 1399870167
                     }
                 },
                 {
@@ -1828,7 +1828,7 @@ Alphabetical List of Building Types
                         "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                         "title": "Stand Alone Bussiness",
                         "added": 1399870167,
-                        "updated": 1399870167
+                        "modified": 1399870167
                     }
                 }
             ]
@@ -1865,7 +1865,7 @@ Alphabetical List of Equipment Types
                         "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                         "title": "Console",
                         "added": 1399870167,
-                        "updated": 1399870167
+                        "modified": 1399870167
                     }
                 },
                 {
@@ -1873,7 +1873,7 @@ Alphabetical List of Equipment Types
                         "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                         "title": "Microphones",
                         "added": 1399870167,
-                        "updated": 1399870167
+                        "modified": 1399870167
                     }
                 },
                 {
@@ -1881,7 +1881,7 @@ Alphabetical List of Equipment Types
                         "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                         "title": "Recorders",
                         "added": 1399870167,
-                        "updated": 1399870167
+                        "modified": 1399870167
                     }
                 }
             ]
@@ -1920,7 +1920,7 @@ Alphabetical List of States
                         "title": "Alaska",
                         "region": "6",
                         "added": 1399870167,
-                        "updated": 1399870167
+                        "modified": 1399870167
                     }
                 },
                 {
@@ -1930,7 +1930,7 @@ Alphabetical List of States
                         "title": "Alabama",
                         "region": "3",
                         "added": 1399870167,
-                        "updated": 1399870167
+                        "modified": 1399870167
                     }
                 },
                 {
@@ -1940,7 +1940,7 @@ Alphabetical List of States
                         "title": "Arkansas",
                         "region": "3",
                         "added": 1399870167,
-                        "updated": 1399870167
+                        "modified": 1399870167
                     }
                 }
             ]
@@ -1977,7 +1977,7 @@ Alphabetical List of State Regions
                         "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                         "title": "International",,
                         "added": 1399870167,
-                        "updated": 1399870167
+                        "modified": 1399870167
                     }
                 },
                 {
@@ -1985,7 +1985,7 @@ Alphabetical List of State Regions
                         "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                         "title": "Mid Atlantic",,
                         "added": 1399870167,
-                        "updated": 1399870167
+                        "modified": 1399870167
                     }
                 },
                 {
@@ -1993,7 +1993,7 @@ Alphabetical List of State Regions
                         "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                         "title": "Midwest",,
                         "added": 1399870167,
-                        "updated": 1399870167
+                        "modified": 1399870167
                     }
                 }
             ]
@@ -2027,7 +2027,7 @@ Use the ?robust=true flag to include Region States in response
                         "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                         "title": "International",
                         "added": 1399870167,
-                        "updated": 1399870167
+                        "modified": 1399870167
                     }
                 },
                 {
@@ -2041,7 +2041,7 @@ Use the ?robust=true flag to include Region States in response
                                 "region_id": "4",
                                 "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                                 "added": 1399870167,
-                                "updated": 1399870167
+                                "modified": 1399870167
                             },
                             {
                                 "title": "Illinois",
@@ -2049,7 +2049,7 @@ Use the ?robust=true flag to include Region States in response
                                 "region_id": "4",
                                 "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                                 "added": 1399870167,
-                                "updated": 1399870167
+                                "modified": 1399870167
                             },
                             {
                                 "title": "Indiana",
@@ -2057,7 +2057,7 @@ Use the ?robust=true flag to include Region States in response
                                 "region_id": "4",
                                 "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                                 "added": 1399870167,
-                                "updated": 1399870167
+                                "modified": 1399870167
                             },
                             {
                                 "title": "Kansas",
@@ -2065,7 +2065,7 @@ Use the ?robust=true flag to include Region States in response
                                 "region_id": "4",
                                 "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                                 "added": 1399870167,
-                                "updated": 1399870167
+                                "modified": 1399870167
                             }
                         ]
                 },
@@ -2080,7 +2080,7 @@ Use the ?robust=true flag to include Region States in response
                             "title": "Connecticut",
                             "region_id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                             "added": 1399870167,
-                            "updated": 1399870167
+                            "modified": 1399870167
                         },
                         {
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
@@ -2088,7 +2088,7 @@ Use the ?robust=true flag to include Region States in response
                             "title": "Massachusetts",
                             "region_id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                             "added": 1399870167,
-                            "updated": 1399870167
+                            "modified": 1399870167
                         },
                         {
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
@@ -2096,7 +2096,7 @@ Use the ?robust=true flag to include Region States in response
                             "title": "Maine",
                             "region_id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                             "added": 1399870167,
-                            "updated": 1399870167
+                            "modified": 1399870167
                         },
                         {
                             "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
@@ -2104,11 +2104,11 @@ Use the ?robust=true flag to include Region States in response
                             "title": "New Hampshire",
                             "region_id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                             "added": 1399870167,
-                            "updated": 1399870167
+                            "modified": 1399870167
                         }
                     ],
                     "added": 1399870167,
-                    "updated": 1399870167
+                    "modified": 1399870167
                 }
             ]
         }
@@ -2147,7 +2147,7 @@ Alphabetical List of Countries
                     "iso_code_2": "CA",
                     "iso_num_code": "124",
                     "added": 1399870167,
-                    "updated": 1399870167
+                    "modified": 1399870167
                 },
                 {
                     "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
@@ -2156,7 +2156,7 @@ Alphabetical List of Countries
                     "iso_code_2": "MX",
                     "iso_num_code": "484",
                     "added": 1399870167,
-                    "updated": 1399870167
+                    "modified": 1399870167
                 },
                 {
                     "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
@@ -2165,7 +2165,7 @@ Alphabetical List of Countries
                     "iso_code_2": "US",
                     "iso_num_code": "840",
                     "added": 1399870167,
-                    "updated": 1399870167
+                    "modified": 1399870167
                 }
 
             ]
@@ -2202,7 +2202,7 @@ Time Zones related resources of the **MAD Studios API**
                         "id": "0adff6e0-e08c-11e3-8b68-0800200c9a64",
                         "title": "Africa/Abidjan"
                         "added": 1399870167,
-                        "updated": 1399870167
+                        "modified": 1399870167
                     }
                 },
                 
@@ -2249,7 +2249,7 @@ Photo related resources of the **MAD Studios API**
                     "id": "0adff6e0-e08c-11e3-8b68-0800200c9a66",
                     "path": "http://cdn.madstudios.com/0adff6e0-e08c-11e3-8b68-0800200c9a66.png",
                     "added": "1398311635",
-                    "updated": "1398311635"
+                    "modified": "1398311635"
                 }
             }
         }
@@ -2309,7 +2309,7 @@ Message related resources of the **MAD Studios API**
                     "type": "message,
                     "text": "Sample Message",
                     "added": "1398311635",
-                    "updated": "1398311635"
+                    "modified": "1398311635"
                 }
             }
         }
@@ -2347,7 +2347,7 @@ Message related resources of the **MAD Studios API**
                         "person_id" : "0bdff6e0-e08c-11e3-8b68-0800200c9a56",
                         "location_id" : "0bdff6e0-e08c-11e3-8b68-0800200c9a56",
                         "added": "1398311635",
-                        "updated": "1398311635"
+                        "modified": "1398311635"
                     },
                     "review": {
                         "id" : "0adff6e0-e08c-11e3-8b68-0800200c9a66",
@@ -2356,7 +2356,7 @@ Message related resources of the **MAD Studios API**
                         "person_id" : "0bdff6e0-e08c-11e3-8b68-0800200c9a56",
                         "location_id" : "0bdff6e0-e08c-11e3-8b68-0800200c9a56",
                         "added": "1398311635",
-                        "updated": "1398311635"
+                        "modified": "1398311635"
                     },
                     "review": {
                         "id" : "0adff6e0-e08c-11e3-8b68-0800200c9a66",
@@ -2365,7 +2365,7 @@ Message related resources of the **MAD Studios API**
                         "person_id" : "0bdff6e0-e08c-11e3-8b68-0800200c9a56",
                         "location_id" : "0bdff6e0-e08c-11e3-8b68-0800200c9a56",
                         "added": "1398311635",
-                        "updated": "1398311635"
+                        "modified": "1398311635"
                     }
                 }
                 
@@ -2415,7 +2415,7 @@ Message related resources of the **MAD Studios API**
                     "person_id" : "0bdff6e0-e08c-11e3-8b68-0800200c9a56",
                     "location_id" : "0bdff6e0-e08c-11e3-8b68-0800200c9a56",
                     "added": "1398311635",
-                    "updated": "1398311635"
+                    "modified": "1398311635"
                 }
             }
         }
@@ -2433,7 +2433,7 @@ Message related resources of the **MAD Studios API**
 
         {
             "rating": "8",
-            "review": "Sample Updated Review"
+            "review": "Sample modified Review"
         }
 
 + Response 201 (application/json)
@@ -2456,11 +2456,11 @@ Message related resources of the **MAD Studios API**
                 "review": {
                     "id" : "0adff6e0-e08c-11e3-8b68-0800200c9a66",
                     "rating" : "5",
-                    "review" : "Sample Updated Review",
+                    "review" : "Sample modified Review",
                     "person_id" : "0bdff6e0-e08c-11e3-8b68-0800200c9a56",
                     "location_id" : "0bdff6e0-e08c-11e3-8b68-0800200c9a56",
                     "added": "1398311635",
-                    "updated": "1398311635"
+                    "modified": "1398311635"
                 }
             }
         }
@@ -2530,7 +2530,7 @@ Message related resources of the **MAD Studios API**
                 "booking": {
                     "id": "0adff6e0-e08c-11e3-8b68-0800200c9a66"
                     "added": "1398311635",
-                    "updated": "1398311635"
+                    "modified": "1398311635"
                 }
             }
         }
