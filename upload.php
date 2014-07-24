@@ -1,18 +1,26 @@
+<?php 
+if(APP_ENV == 'dev'){
+	define('API_URL','http://api.madstudios.dev');
+} else {
+	define('API_URL','http://api.madstudios.com');
+	//define('API_URL','http://api-madstudios-com-aymrazkevm5l.runscope.net');
+}
+?>
 <html>
 <body>
 <h1>Upload Single Location Photo</h1>
-<form action="http://api.madstudios.dev/Photos" method="post" enctype="multipart/form-data">
+<form action="<?php echo API_URL; ?>/Photos" method="post" enctype="multipart/form-data">
 <label for="file">Filename:</label>
 <input type="file" name="file" id="file"><br>
-ID:<input type="text" name="id" id="id" value="323454C0-12D2-11E4-9191-0800200C9A66"><br>
+ID:<input type="text" name="id" id="id" value="<?php echo create_uuid(); ?>"><br>
 Type:<input type="text" name="type" id="type" value="location"><br>
-Type ID:<input type="text" name="type_id" id="type_id" value="323454C0-12D2-11E4-9191-0800200C9A64"><br>
+Type ID:<input type="text" name="type_id" id="type_id" value="<?php echo create_uuid(); ?>"><br>
 <input type="submit" name="submit" value="Submit">
 </form>
 
 <h1>Create Location with Photo</h1>
 
-<form action="http://api.madstudios.dev/Locations" method="post" enctype="multipart/form-data">
+<form action="<?php echo API_URL; ?>/Locations" method="post" enctype="multipart/form-data">
 <label for="file">Filename:</label>
 <input type="file" name="file" id="file"><br>
 ID:<input type="text" name="id" id="id" value="<?php echo create_uuid(); ?>"><br>
@@ -29,7 +37,7 @@ Photo ID:<input type="text" name="photo_id" id="photo_id" value="<?php echo crea
 
 <h1>Create Person with Photo</h1>
 
-<form action="http://api.madstudios.dev/People" method="post" enctype="multipart/form-data">
+<form action="<?php echo API_URL; ?>/People" method="post" enctype="multipart/form-data">
 <label for="file">Filename:</label>
 <input type="file" name="file" id="file"><br>
 ID:<input type="text" name="id" id="id" value="<?php echo create_uuid(); ?>"><br>
