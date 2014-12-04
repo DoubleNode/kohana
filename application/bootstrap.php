@@ -103,7 +103,9 @@ if (isset($_SERVER['KOHANA_ENV']))
  * - boolean  expose      set the X-Powered-By header                        FALSE
  */
 Kohana::init(array(
-	'base_url'   => '/kohana/',
+	'base_url'   => '/',
+	'index_file' => '',
+	'errors'		=> TRUE
 ));
 
 /**
@@ -133,6 +135,7 @@ Kohana::modules(array(
 	
 	'dnadmin'    	=> MODPATH.'dnadmin',    	// DoubleNode Admin
 	'madapi'   		=> MODPATH.'madapi',   		// MADStudios API
+	//'madadmin'   	=> MODPATH.'madadmin',   	// MADStudios API Admin
 
 	'partials' 		=> MODPATH.'partials',   	// Partial templates
 	'restful-api' 	=> MODPATH.'restful-api',	// RESTful API
