@@ -133,7 +133,7 @@ Kohana::modules(array(
 	'unittest'   	=> MODPATH.'unittest',   	// Unit testing
 	'userguide'  	=> MODPATH.'userguide',  	// User guide and API documentation
 	
-	'dnadmin'    	=> MODPATH.'dnadmin',    	// DoubleNode Admin
+	//'dnadmin'    	=> MODPATH.'dnadmin',    	// DoubleNode Admin
 	'madapi'   		=> MODPATH.'madapi',   		// MADStudios API
 	//'madadmin'   	=> MODPATH.'madadmin',   	// MADStudios API Admin
 
