@@ -1,7 +1,6 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
 // -- Environment setup --------------------------------------------------------
-Cookie::$salt = 'Delsicdkeakducjlwadc9#09urhkc74kws1@3fdksyY';
 
 // Load the core Kohana class
 require SYSPATH.'classes/Kohana/Core'.EXT;
@@ -142,6 +141,8 @@ Kohana::modules(array(
 	'restful-api' 	=> MODPATH.'restful-api',	// RESTful API
 	
 	));
+
+Cookie::$salt = 'Delsicdkeakducjlwadc9#09urhkc74kws1@3fdksyY';
 
 /**
  * Set the routes. Each route must have a minimum of a name, a URI and a set of
